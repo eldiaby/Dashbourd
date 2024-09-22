@@ -1,0 +1,57 @@
+/* start of global sittings */
+:root {
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* 
+*::selection {
+
+} */
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  /* background-color: #eee;*/
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 120rem;
+  padding: 0 3.2rem;
+  margin: 0 auto;
+}
+/* End of global sittings */
+/* ====================================================================================== */
+/* Start of global component */
+
+.grid {
+  display: grid;
+}
+
+.grid--col-2 {
+  grid-template-columns: repeat(auto-fill, minmax(50rem, 1fr));
+}
+.grid--col-3 {
+  grid-template-columns: repeat(auto-fill, minmax(30rem, 1fr));
+}
+.grid--col-4 {
+  grid-template-columns: repeat(auto-fill, minmax(25rem, 1fr));
+}
+
+/* End of global component */
