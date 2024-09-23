@@ -1,5 +1,13 @@
 /* start of global sittings */
 :root {
+  --body-background: #f1f5f9;
+  --blue-color: #0075ff;
+  --blue-alt-color: #0d69d5;
+  --orange-color: #f59e0b;
+  --green-color: #22c55e;
+  --red-color: #f44336;
+  --grey-color: #888;
+  --transition-duration: 0.3s;
 }
 
 * {
@@ -18,7 +26,12 @@ html {
 
 body {
   font-family: "Roboto", sans-serif;
-  /* background-color: #eee;*/
+  background-color: var(--body-background);
+  height: 99vh;
+  padding: 0;
+  margin: 0;
+  grid-template-columns: 24rem 1fr;
+  grid-template-rows: 8.2rem 1fr auto;
 }
 
 ul {
@@ -31,14 +44,41 @@ a {
   text-decoration: none;
 }
 
-.container {
+*:focus {
+  outline: none;
+}
+
+::-webkit-scrollbar {
+  width: 1.5rem;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #fff;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--blue-color);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: var(--blue-alt-color);
+}
+
+main {
+  overflow-x: auto;
+  grid-template-columns: repeat(auto-fill, minmax(32rem, 1fr));
+}
+
+/* .container {
   max-width: 120rem;
   padding: 0 3.2rem;
   margin: 0 auto;
-}
+} */
 /* End of global sittings */
 /* ====================================================================================== */
-/* Start of global component */
+
+/*
+Start of global component 
 
 .grid {
   display: grid;

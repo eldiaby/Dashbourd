@@ -1,0 +1,127 @@
+/* ========================================================================================== */
+/* Start of layouts */
+
+.d-flex {
+  display: flex;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.flex-between {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.d-grid {
+  display: grid;
+}
+
+.d-block {
+  display: block;
+}
+
+.gap-12 {
+  gap: 2.4rem;
+}
+
+.gap-24 {
+  gap: 2.4rem;
+}
+
+/* End of layouts */
+/* ========================================================================================== */
+/* Start of spacing */
+
+.p-12 {
+  padding: 1.2rem;
+}
+
+.p-20 {
+  padding: 2rem;
+}
+
+.p-24 {
+  padding: 2.4rem;
+}
+
+.m-12 {
+  margin: 1.2rem;
+}
+
+.m-20 {
+  margin: 2rem;
+}
+
+.m-24 {
+  margin: 2.4rem;
+}
+
+/* End of spacing */
+/* ========================================================================================== */
+/* Start of colors */
+
+.bg-light {
+  background-color: #fff;
+}
+
+.color-black {
+  color: #000;
+}
+
+/* End of colors */
+/* ========================================================================================== */
+/* Start of positions*/
+
+.p-relative {
+  position: relative;
+}
+
+/* End of positions   */
+/* ========================================================================================== */
+/* Start of text */
+
+.text-center {
+  text-align: center;
+}
+
+.font-12 {
+  font-size: 1.2rem;
+}
+
+.font-14 {
+  font-size: 1.4rem;
+}
+
+.font-18 {
+  font-size: 1.8rem;
+}
+
+.font-24 {
+  font-size: 2.4rem;
+}
+
+/* End of text */
+/* ========================================================================================== */
+/* Start of  borders */
+
+.br-8 {
+  border-radius: 0.8rem;
+}
+
+/* End of borders    */
+/* ========================================================================================== */
+/* Start of width */
+
+.w-full {
+  width: 100%;
+}
+
+/* End of width */
+/* ========================================================================================== */
+/* Start of                      */
+
+/* End of                        */
+/* ========================================================================================== */

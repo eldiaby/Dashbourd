@@ -1,0 +1,17 @@
+/* layout */
+/* screen widht 672pxs */
+@media (max-width: 42em) {
+  body {
+    grid-template-columns: 10rem 1fr;
+  }
+  .aside ul a span {
+    display: none;
+  }
+  .aside ul li a {
+    justify-content: center;
+  }
+  main {
+    grid-template-columns: minmax(2.4rem, 1fr);
+  }
+}
+/* layout */
