@@ -6,7 +6,7 @@
   --orange-color: #f59e0b;
   --green-color: #22c55e;
   --red-color: #f44336;
-  --grey-color: #888;
+  --gray-color: #888;
   --transition-duration: 0.3s;
 }
 
@@ -66,7 +66,8 @@ a {
 
 main {
   overflow-x: auto;
-  grid-template-columns: repeat(auto-fill, minmax(32rem, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(45rem, 1fr));
+  grid-template-rows: 8.2rem;
 }
 
 /* .container {

@@ -9,6 +9,10 @@
   align-items: center;
 }
 
+.space-betwen {
+  justify-content: space-between;
+}
+
 .flex-between {
   display: flex;
   align-items: center;
@@ -51,12 +55,32 @@
   margin: 1.2rem;
 }
 
+.m-0 {
+  margin: 0;
+}
+
 .m-20 {
   margin: 2rem;
 }
 
 .m-24 {
   margin: 2.4rem;
+}
+
+.mt-8 {
+  margin-top: 0.8rem;
+}
+
+.mt-12 {
+  margin-top: 1.2rem;
+}
+
+.mt-24 {
+  margin-top: 2.4rem;
+}
+
+.mb-24 {
+  margin-bottom: 2.4rem;
 }
 
 /* End of spacing */
@@ -67,8 +91,24 @@
   background-color: #fff;
 }
 
+.bg-blue {
+  background-color: var(--blue-color);
+}
+
+.bg-eee {
+  background-color: #eee;
+}
+
+.color-light {
+  color: #fff;
+}
+
 .color-black {
   color: #000;
+}
+
+.color-gray {
+  color: var(--gray-color);
 }
 
 /* End of colors */
@@ -117,6 +157,10 @@
 
 .w-full {
   width: 100%;
+}
+
+.w-fit {
+  width: fit-content;
 }
 
 /* End of width */
